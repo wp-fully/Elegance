@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Elegance Home is a furniture store that offers a wide range of high-quality furniture for your home.">
+    <title>Elegance Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css" >
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="/" id="logo" aria-label="logo">Elegance</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Furnitures</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div>
+                <!-- Login -->
+                <!-- <figure role="button" aria-label="login" tabindex="0">
+                    <i class="bx bx-user"></i>
+                    <figcaption>Login</figcaption>
+                </figure> -->
+                <div id="toggles">
+                    <i id="search-icon" class="bx bx-search" tabindex="0" role="button" aria-label="search"></i>
+                    <i id="toggle-theme" class="bx bx-sun" tabindex="0" role="button" aria-label="toggle theme"></i>
+                    <i id="fullscreen-toggle" class="bx bx-fullscreen" tabindex="0" role="button"
+                        aria-label="fullscreen"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container hero-container">
+                <div>
+                    <h1>Discover Elegance</h1>
+                    <p>Discover Elegance is a furniture store that offers a wide range of high-quality furniture for
+                        your home.</p>
+                    <button>Shop Now</button>
+                </div>
+                <figure>
+                    <img id="hero-image" src="images/hero-image.webp" alt="hero">
+                </figure>
+                <div class="circle"></div>
+            </div>
+        </section>
+        <!-- Our Furniture -->
+        <section id="our-furniture">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Furniture</h2>
+                    <p>Discover Elegance is a furniture store that offers a wide range of high-quality furniture for
+                        your
+                        home.</p>
+                </div>
+                <div class="furniture-container">
+                    <figure>
+                        <img src="images/f1.webp" alt="furniture-1">
+                        <h3>brown Chair Design</h3>
+                    </figure>
+                    <figure>
+                        <img src="images/f2.webp" alt="furniture-2">
+                        <h3>white Chair Design</h3>
+                    </figure>
+                    <figure>
+                        <img src="images/f3.webp" alt="furniture-3">
+                        <h3>black Chair Design</h3>
+                    </figure>
+                    <figure>
+                        <img src="images/f4.webp" alt="furniture-4">
+                        <h3>red Chair Design</h3>
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="pop-ups">
+            <div id="search-pop-up">
+                <input type="text" name="search" id="search" placeholder="Search ...." tabindex="0" role="searchbox"
+                    aria-label="search">
+
+            </div>
+        </section>
+        <section id="social">
+            <i class="bx bxl-whatsapp" role="button" aria-label=" chat on whatsapp" tabindex="0"></i>
+            <i class="bx bxl-instagram" role="button" aria-label="chat on instagram" tabindex="0"></i>
+            <i class="bx bxl-facebook" role="button" aria-label="chat on facebook" tabindex="0"></i>
+            <i class="bx bxs-phone-call" role="button" aria-label="call on phone" tabindex="0"></i>
+            <i class="bx bxl-twitter" role="button" aria-label="chat on twitter" tabindex="0"></i>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="scripts/index.js" type="module"></script>
+</body>
+
+</html>
